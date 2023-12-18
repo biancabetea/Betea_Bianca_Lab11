@@ -9,7 +9,7 @@ using Betea_Bianca_Lab11.Models;
 
 namespace Betea_Bianca_Lab11.Data
 {
-    internal class ShoppingListDatabase
+    public class ShoppingListDatabase
     {
         IRestService restService;
         public ShoppingListDatabase(IRestService service)
@@ -31,7 +31,4 @@ namespace Betea_Bianca_Lab11.Data
         }
 
     }
-} 
-
-        
-
+}
