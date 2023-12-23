@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Threading.Tasks;
 using Betea_Bianca_Lab11.Models;
 
 
@@ -25,6 +24,7 @@ namespace Betea_Bianca_Lab11.Data
         {
             return restService.SaveShopListAsync(item, isNewItem);
         }
+        // Asigură-te că metoda este publică sau are accesibilitatea dorită
         public Task DeleteShopListAsync(ShopList item)
         {
             return restService.DeleteShopListAsync(item.ID);

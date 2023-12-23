@@ -5,8 +5,14 @@ public partial class ListPage : ContentPage
 {
 	public ListPage()
 	{
-		InitializeComponent();
+	    InitializeComponent();
 	}
+
+    private void InitializeComponent()
+    {
+        throw new NotImplementedException();
+    }
+
     async void OnSaveButtonClicked(object sender, EventArgs e)
     {
         var slist = (ShopList)BindingContext;

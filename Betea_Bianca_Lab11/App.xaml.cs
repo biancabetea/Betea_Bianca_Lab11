@@ -9,3 +9,5 @@ namespace Betea_Bianca_Lab11
             Database = new ShoppingListDatabase(new RestService());
             MainPage = new NavigationPage(new ListEntryPage());
         }
+    }
+}

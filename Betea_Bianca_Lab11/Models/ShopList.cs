@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Betea_Bianca_Lab11.Models
 {
-    internal class ShopList
+    public class ShopList
     {
         public int ID { get; set; }
         public string Description { get; set; }

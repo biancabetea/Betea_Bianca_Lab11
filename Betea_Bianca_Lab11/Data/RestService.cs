@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using Betea_Bianca_Lab11.Models;
+using System.Net.Http;
 
 
 namespace Betea_Bianca_Lab11.Data
 {
-    internal class RestService : IRestService
+  
 
+    public class RestService : IRestService
     {
         HttpClient client;
 
-        //se va modifica ulterior cu ip-ul si portul corespunzator
         string RestUrl = "https://192.169.0.8:45455/api/shoplists/{0}";
         public List<ShopList> Items { get; private set; }
         public RestService()
